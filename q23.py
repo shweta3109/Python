@@ -1,0 +1,5 @@
+numbers=(1,3,5,4,9,1,4,5)
+y=numbers.count(3)
+print(y)
+z=numbers.index(1)
+print(z)
