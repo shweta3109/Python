@@ -1,0 +1,11 @@
+import numpy as np
+arr1=np.array([1,2,3,45])
+arr2=np.array([3,4,5,6])
+arr3=np.intersect1d(arr1,arr2)
+arr4=np.union1d(arr1,arr2)
+arr5=np.setdiff1d(arr1,arr2)
+arr6=np.setxor1d(arr1,arr2)
+print(arr3)
+print(arr4)
+print(arr5)
+print(arr6)
